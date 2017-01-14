@@ -5,10 +5,6 @@ import com.google.android.things.pio.PeripheralManagerService;
 
 import java.io.IOException;
 
-/**
- * Created by kmilligan on 1/12/2017.
- */
-
 public class LEDModel {
     private static LEDModel instance = null;
     private PeripheralManagerService mPMSvc;

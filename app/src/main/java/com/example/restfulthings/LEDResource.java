@@ -1,10 +1,7 @@
 package com.example.restfulthings;
 
 import android.util.Log;
-
-import com.google.android.things.pio.Gpio;
-import com.google.android.things.pio.PeripheralManagerService;
-
+import org.json.JSONObject;
 import org.restlet.data.MediaType;
 import org.restlet.ext.json.JsonRepresentation;
 import org.restlet.representation.Representation;
@@ -12,11 +9,6 @@ import org.restlet.representation.StringRepresentation;
 import org.restlet.resource.Get;
 import org.restlet.resource.Post;
 import org.restlet.resource.ServerResource;
-import org.json.JSONObject;
-
-/**
- * Created by kmilligan on 1/11/2017.
- */
 
 public class LEDResource extends ServerResource {
 
